@@ -45,7 +45,8 @@ O elemento acima cria uma edição que ocorre apenas com a condição estabeleci
 /*Livro principal */
 .livro-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/Netflix/img/Fizban_bg.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/Fizban_bg.jpg'); 
+
 
     height: 400px;
     background-size: cover;
@@ -89,4 +90,10 @@ O elemento acima cria uma edição que ocorre apenas com a condição estabeleci
     }
 .livro-principal .container{
     width: 70%;
+}
+
+.box-livro {
+    height: 100%;
+    width: 100%;
+    display:block;
 }
