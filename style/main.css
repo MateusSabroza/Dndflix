@@ -13,7 +13,7 @@ root cria uma variavel no qual você pode menciona-la ao longo do codigo
 /*Elementos base */
 body{
   background: var(--preta); 
-  font-family: 'Times New Roman';
+  font-family: 'Arial';
   color: white;
 }
 
@@ -58,7 +58,7 @@ O elemento acima cria uma edição que ocorre apenas com a condição estabeleci
 }
 /*se der algum problema na geração do bg é o caminho da imagem*/
 .livro-principal .descricao{
-    margin-bottom: 90px;
+    margin-bottom: 40px;
     margin-top: 10px;
 }
 .titulo{
@@ -73,6 +73,7 @@ O elemento acima cria uma edição que ocorre apenas com a condição estabeleci
     color: white;
     padding: 15px 30px;
     margin-right: 15px;
+    margin-bottom: 15px;
     font-size: 12px;
     cursor: pointer;
     transition: 3s;
@@ -96,4 +97,7 @@ O elemento acima cria uma edição que ocorre apenas com a condição estabeleci
     height: 100%;
     width: 100%;
     display:block;
+}
+.carrosel_livro{
+    margin-top: 5px;
 }
